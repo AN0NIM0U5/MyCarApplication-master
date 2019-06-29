@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_menu__xml"
+    android:background="#E7FF05"
+    tools:context=".Menu">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageButton
+            android:id="@+id/colorRojoXml"
+            android:layout_width="245dp"
+            android:layout_height="158dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="8dp"
+            android:background="#F10000"
+            android:text="ROJO"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/colorAzulXml" />
+
+        <ImageButton
+            android:id="@+id/colornegroXml"
+            android:layout_width="188dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="4dp"
+            android:background="#000000"
+            android:text="NEGRO"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/colorRojoXml" />
+
+        <ImageButton
+            android:id="@+id/colorAzulXml"
+            android:layout_width="265dp"
+            android:layout_height="206dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="16dp"
+            android:background="#311B92"
+            android:text="AZUL"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/colorBlancoxml"
+            android:layout_width="161dp"
+            android:layout_height="146dp"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="384dp"
+            android:background="#F5EDED"
+            android:text="BLANCO"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/colornegroXml"
+            app:layout_constraintVertical_bias="0.0" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
